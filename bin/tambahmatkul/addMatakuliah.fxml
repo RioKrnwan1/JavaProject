@@ -9,9 +9,9 @@
 <?import javafx.scene.paint.Color?>
 <?import javafx.scene.text.Font?>
 
-<VBox alignment="CENTER" prefHeight="600" prefWidth="800" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.LoginController">
+<VBox alignment="CENTER" prefHeight="600" prefWidth="800" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="matakuliah.AddMatkulController">
    <children>
-      <VBox alignment="CENTER" maxWidth="400.0" minWidth="400.0" prefHeight="392.0" prefWidth="400.0" style="-fx-background-color: white; -fx-background-radius: 10px;">
+      <VBox alignment="CENTER" maxWidth="400.0" minWidth="400.0" prefHeight="392.0" prefWidth="400.0" style="-fx-background-color: white; -fx-background-radius: 20px;">
          <VBox.margin>
             <Insets />
          </VBox.margin>
@@ -23,7 +23,7 @@
             </DropShadow>
          </effect>
          <children>
-            <Label alignment="CENTER" text="ADD MATKUL">
+            <Label alignment="CENTER" text="Tambah Matkul">
                <font>
                   <Font name="Arial Bold" size="24.0" />
                </font>
@@ -57,7 +57,7 @@
                         <Insets top="-20.0" />
                      </VBox.margin>
                   </Label>
-                  <TextField fx:id="namaMatkul" prefHeight="38.0" prefWidth="332.0" promptText="Masukkan nama matkul" style="-fx-background-radius: 5px;" />
+                  <TextField fx:id="namaMatkul" prefHeight="38.0" prefWidth="332.0" promptText="Masukkan kode matkul" style="-fx-background-radius: 5px;" />
                </children>
                <VBox.margin>
                   <Insets left="70.0" right="70.0" top="15.0" />
@@ -84,7 +84,7 @@
                   <Insets bottom="7.0" top="5.0" />
                </VBox.margin>
             </Label>
-            <Button fx:id="btnTambah" mnemonicParsing="false" onAction="#btnTambah" prefHeight="30.0" prefWidth="91.0" style="-fx-background-color: #4DA6FF; -fx-background-radius: 5px;" text="Tambah" textFill="#fffdfd">
+            <Button fx:id="btnTambah" mnemonicParsing="false" onAction="#btnTambah" prefHeight="38.0" prefWidth="98.0" style="-fx-background-color: #4DA6FF; -fx-background-radius: 10px;" text="TAMBAH" textFill="#fffdfd">
                <font>
                   <Font name="Arial Bold" size="15.0" />
                </font>

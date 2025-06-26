@@ -70,7 +70,7 @@
                   <Insets top="20.0" />
                </padding>
                <children>
-                  <Label contentDisplay="RIGHT" text="Kode Security:">
+                  <Label contentDisplay="RIGHT" text="Kode Security: Rayo1">
                      <VBox.margin>
                         <Insets top="-20.0" />
                      </VBox.margin>

@@ -92,7 +92,7 @@
                         <Insets />
                      </HBox.margin>
                   </Label>
-                  <Button alignment="TOP_LEFT" mnemonicParsing="false" onAction="#otwMatkul" prefHeight="26.0" prefWidth="66.0" style="-fx-background-color: transparent; -fx-text-fill: #4DA6FF; -fx-underline: true; -fx-cursor: hand;" text="Matakul">
+                  <Button alignment="TOP_LEFT" mnemonicParsing="false" onAction="#otwMatkul" prefHeight="26.0" prefWidth="66.0" style="-fx-background-color: transparent; -fx-text-fill: #4DA6FF; -fx-underline: true; -fx-cursor: hand;" text="Mtakul">
                      <font>
                         <Font name="Arial" size="12.0" />
                      </font>

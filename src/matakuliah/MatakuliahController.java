@@ -60,4 +60,13 @@ public class MatakuliahController {
         stage.setWidth(800); 
         stage.setHeight(600);
     }
+
+    @FXML
+    public void btnTambahMatkul(ActionEvent event) throws Exception {
+        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        Scene scene = new Scene(FXMLLoader.load(getClass().getResource("/tambahMatkul/addMatakuliah.fxml")));
+        stage.setScene(scene);
+        stage.setWidth(800); 
+        stage.setHeight(600);
+    }
 }

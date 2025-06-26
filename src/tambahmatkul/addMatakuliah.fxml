@@ -9,7 +9,7 @@
 <?import javafx.scene.paint.Color?>
 <?import javafx.scene.text.Font?>
 
-<VBox alignment="CENTER" prefHeight="600" prefWidth="800" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="matakuliah.AddMatkulController">
+<VBox alignment="CENTER" prefHeight="600" prefWidth="800" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tambahmatkul.AddMatkulController">
    <children>
       <VBox alignment="CENTER" maxWidth="400.0" minWidth="400.0" prefHeight="392.0" prefWidth="400.0" style="-fx-background-color: white; -fx-background-radius: 20px;">
          <VBox.margin>
